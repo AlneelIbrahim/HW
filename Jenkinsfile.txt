@@ -3,11 +3,11 @@ node {
 
 
 
-    docker.withRegistry('https://registry.hub.docker.com', 'alneelibrahim') {
+    docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') {
 
 
 
-        def customImage = docker.build("alneelibrahim/dockerwebapp")
+        def customImage = docker.build("alneelibrahim/HW")
 
 
 
