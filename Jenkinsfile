@@ -7,7 +7,7 @@ node {
 
 
 
-        def customImage = docker.build("alneelibrahim/HW")
+        def customImage = docker.build("alneelibrahim/hw")
 
 
 
