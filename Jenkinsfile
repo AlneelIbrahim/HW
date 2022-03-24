@@ -3,7 +3,7 @@ node {
 
 
 
-    docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') {
+    docker.withRegistry('https://hub.docker.com/', 'dockerHub') {
 
 
 
